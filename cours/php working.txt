@@ -1,0 +1,4 @@
+It's server language.
+For interactive tasks. You can't view the code in PHP. 
+You can write more secure code. You can integer with HTML.
+PHP can't be add in HTML files.
