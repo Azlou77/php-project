@@ -53,6 +53,15 @@ $bob = new Person( 'Bob', 'Iger' );
 
 $people = array( $rob, $joe, $erin, $steve, $bill, $walt, $bob );
 
+function sorter(array $a, array $b) {
+    return [$a['last_name'], $a['first_name']] <=> [$b['last_name'], $b['first_name']];
+}
 
+usort($people, 'sorter');
+
+foreach ($people as $person) {
+    print $person['last'] . ', ' . $person['first'] . PHP_EOL;
+}
 ?>
+
 
