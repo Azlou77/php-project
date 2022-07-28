@@ -36,7 +36,7 @@ echo section5Bis\double(5);
 
 */
 ?>
-<?php include 'footer.php'; ?>
+<?php include 'admin_footer.php'; ?>
 <html>
 <body>
 
@@ -49,7 +49,7 @@ echo section5Bis\double(5);
 </html>
 
 
-<?php require 'footer.php';?>
+<?php require 'admin_footer.php';?>
 <html>
 <body>
 <h1>Welcome to my home page!</h1>

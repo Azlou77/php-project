@@ -1,4 +1,19 @@
 <?php
+
+function escape($string) {
+
+    global $connection;
+
+    return mysqli_real_escape_string($connection, trim($string));
+
+
+}
+function confirmQuery($create_post_query){
+    global $connection;
+    if(!$create_post_query){
+        die("Query failed" . mysqli_error($connection));
+    }
+}
 function insert_categories(){
     global $connection;
 }

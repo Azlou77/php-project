@@ -77,6 +77,7 @@
                     </li>
                 </ul>
             </li>
+
             <li>
                 <a href="./categories.php"><i class="fa fa-fw fa-wrench"></i> Categories</a>
             </li>

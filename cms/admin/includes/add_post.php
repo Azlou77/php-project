@@ -27,6 +27,9 @@ if(isset($_POST['create_post'])) {
 
     $create_post_query = mysqli_query($connection, $query);
 
+
+
+
     confirmQuery($create_post_query);
 
     $the_post_id = mysqli_insert_id($connection);
